@@ -34,7 +34,7 @@ body {
     transition: transform .2s;
     position: relative;
     */
-
+    object-fit: cover;
     position: relative;
     width: 124px;
     height: 124px;
@@ -42,8 +42,7 @@ body {
     margin: 40px auto 20px;
     border-radius: 50%;
     margin-bottom: 32px;
-    transition: transform .1s;
-    object-fit: cover;
+    transition: transform .0.5s;
     -webkit-tap-highlight-color: transparent;
 }
 

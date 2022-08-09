@@ -24,13 +24,14 @@ body {
 }
 
 #profilePicture, #profilePicture img {
-    position: relative;
+    position: center;
     width: 96px;
     height: 96px;
     display: block;
     margin: 40px auto 20px;
     border-radius: 50%;
     -webkit-tap-highlight-color: transparent;
+    
 }
 
 #userName {
@@ -40,7 +41,7 @@ body {
     line-height: 1.25;
     display: block;
     font-family: var(--font);
-    width: 100%;
+    width: 90%;
     text-align: center;
     text-decoration: none;
 }

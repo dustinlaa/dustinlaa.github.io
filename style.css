@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     /* background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%); */
-    background-image: url('https://cutewallpaper.org/21/minimalist-moon-wallpaper/Wallpaper-Moon-Stars-Minimal-4K-Minimal-11949.jpg'); 
+    background-image: url('https://images.hdqwalls.com/wallpapers/abstract-fractal-desktop-b1.jpg'); 
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;

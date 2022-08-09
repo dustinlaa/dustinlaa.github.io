@@ -116,7 +116,7 @@ body {
     object-fit: cover;
     position: relative;
     display: block;
-    margin: 10px auto 10px;
+    margin: auto;
 }
 #hashtag {
     position: relative;

@@ -40,7 +40,7 @@ body {
 }*/
 
 #profilePicture, #profilePicture img {
-    position: relative
+    position: relative;
     width: 96px;
     height: 96px;
     display: block;

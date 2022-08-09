@@ -23,7 +23,7 @@ body {
     position: relative;
 }
 
-
+/*
 #profilePicture, #profilePicture img {
     height: 124px;
     width: 124px;
@@ -37,10 +37,10 @@ body {
 #profilePicture, #profilePicture img:hover {
     transform: scale(1.2);
 
-}
-/*
+}*/
+
 #profilePicture, #profilePicture img {
-    position: center;
+    position: relative
     width: 96px;
     height: 96px;
     display: block;
@@ -48,7 +48,7 @@ body {
     border-radius: 50%;
     -webkit-tap-highlight-color: transparent;
     
-} */
+} 
 
 #userName {
     color: var(--accentColor);
@@ -108,8 +108,9 @@ body {
     font-family: var(--font);
     width: 100%;
     text-align: center;
-
+    
     /*  animation   */
+    /*
     overflow: hidden;
     background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
     background-repeat: no-repeat;
@@ -118,7 +119,7 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
-}
+} */
 
 
 /*-------------------------animations-----------------------*/

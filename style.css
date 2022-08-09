@@ -23,7 +23,8 @@ body {
     position: relative;
 }
 
-#profilePicture, #profilePicture img img {
+/*
+#profilePicture, #profilePicture img {
     height: 124px;
     width: 124px;
     border-radius: 50%;
@@ -33,11 +34,11 @@ body {
     position: relative;
 }
 
-#profilePicture, #profilePicture img img:hover {
+#profilePicture, #profilePicture img:hover {
     transform: scale(1.2);
 
-}
-/*
+}*/
+
 #profilePicture, #profilePicture img {
     position: center;
     width: 96px;
@@ -47,7 +48,7 @@ body {
     border-radius: 50%;
     -webkit-tap-highlight-color: transparent;
     
-} */
+} 
 
 #userName {
     color: var(--accentColor);

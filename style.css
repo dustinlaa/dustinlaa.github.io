@@ -105,8 +105,8 @@ body {
 #gif {
     object-fit: cover;
     position: relative;
-    width: 124px;
-    height: 124px;
+    width: 96px;
+    height: 96px;
     display: block;
     margin: 5px auto 5px;
     -webkit-tap-highlight-color: transparent;

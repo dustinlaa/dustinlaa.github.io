@@ -103,14 +103,20 @@ body {
     color: var(--bgColor);
 }
 
-#gif {
+#gif img {
+    /*object-fit: cover;
+    position: relative; */
+    width: 376px;
+    height: 240px;
+   /* display: block;
+    margin: 5px auto 5px;
+    -webkit-tap-highlight-color: transparent; */
+    width: 10%;
+    height: 10%;
     object-fit: cover;
     position: relative;
-    width: 64px;
-    height: 64px;
     display: block;
-    margin: 5px auto 5px;
-    -webkit-tap-highlight-color: transparent;
+    margin: 10px auto 10px;
 }
 #hashtag {
     position: relative;

@@ -24,15 +24,31 @@ body {
 }
 
 #profilePicture, #profilePicture img {
+    
+    /*padding: 32x;
+    height: 124px;
+    width: 124px;
+    border-radius: 50%;
+    margin-bottom: 32px;    
+
+    transition: transform .2s;
     position: relative;
-    width: 96px;
-    height: 96px;
+    */
+    object-fit: cover;
+    position: relative;
+    width: 124px;
+    height: 124px;
     display: block;
     margin: 40px auto 20px;
     border-radius: 50%;
+    margin-bottom: 32px;
+    transition: transform 0.5s;
     -webkit-tap-highlight-color: transparent;
 }
 
+#profilePicture, #profilePicture img:hover {
+    transform: scale(1.2);
+}
 #userName {
     color: var(--accentColor);
     font-size: 1rem;
@@ -93,6 +109,7 @@ body {
     text-align: center;
 
     /*  animation   */
+    /*
     overflow: hidden;
     background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
     background-repeat: no-repeat;
@@ -101,6 +118,7 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    */
 }
 
 

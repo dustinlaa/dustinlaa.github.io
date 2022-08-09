@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     /* background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%); */
-    background-image: url('https://w0.peakpx.com/wallpaper/692/92/HD-wallpaper-3d-sharp-lines-vector-thumbnail.jpg'); 
+    background-image: url('https://images7.alphacoders.com/958/thumb-1920-958598.jpg'); 
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;

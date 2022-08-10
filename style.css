@@ -15,7 +15,7 @@ body {
     font-family: var(--font);
     /* background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%); */
     /* background-image: url('https://images7.alphacoders.com/958/thumb-1920-958598.jpg'); */
-    background-image: url('https://images.alphacoders.com/115/thumb-1920-1155483.png'); 
+    background-image: url("images/webbackground.png"); 
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;

@@ -15,7 +15,7 @@ body {
     font-family: var(--font);
     /* background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%); */
     /* background-image: url('https://images7.alphacoders.com/958/thumb-1920-958598.jpg'); */
-    background-image: url("images/webbackground.png"); 
+    background-image: url("images/webbackground.png");
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -24,6 +24,19 @@ body {
     position: relative;
 }
 
+#profileHome img {
+    object-fit: cover;
+    position: relative;
+    width: 186px;
+    height: 186px;
+    display: block;
+    margin: 40px auto 20px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+    transition: transform 0.5s;
+    -webkit-tap-highlight-color: transparent;
+
+}
 #profilePicture, #profilePicture img {
     
     /*padding: 32x;
@@ -50,6 +63,10 @@ body {
 #profilePicture, #profilePicture img:hover {
     transform: scale(1.2);
 }
+
+#profileHome img:hover {
+    transform: scale(1.2);
+}
 #userName {
     color: var(--accentColor);
     font-size: 1rem;
@@ -57,11 +74,18 @@ body {
     line-height: 1.25;
     display: block;
     font-family: var(--font);
-    width: 100%;
+    width: 600px;
+    margin: auto;
     text-align: center;
     text-decoration: none;
 }
 
+#linksHome {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
 #links {
     max-width: 675px;
     width: auto;
@@ -71,15 +95,22 @@ body {
 }
 
 #about {
+    font-weight: 100;
+    position: relative;
     color: var(--accentColor);
     line-height: 1.25;
     display: block;
-    font-family: var(--font);
-    width: 100%;
+    width: auto;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
+    margin:auto;
+    padding-top:15px;
 }
+
+
 .link {
     position: relative;
     background-color: transparent; 

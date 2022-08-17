@@ -7,6 +7,7 @@
     --accentColor: #FFF;
     --font: 'Karla', sans-serif;
     --delay: .3s;
+    color-scheme: dark;
 }
 
 body {

@@ -614,8 +614,8 @@ nav a:nth-child(3):hover ~ #indicator {
 }
 
 nav a:nth-child(4):hover ~ #indicator {
-    left: 320px;
-    background: linear-gradient(130deg, blue, orange);
+  left: 320px;
+  background: linear-gradient(130deg, blue, orange);
 }
 
 nav a:nth-child(1):hover ~ #indicator2 {

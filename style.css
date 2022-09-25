@@ -559,7 +559,7 @@ nav a:nth-child(4):after {
 
 #indicator2 {
   position: absolute;
-  left: 114px;
+  left: 26%;
   bottom: 0;
   width: 30px;
   height: 3px;
@@ -571,7 +571,7 @@ nav a:nth-child(4):after {
 
 #indicator3 {
   position: absolute;
-  left: 245px;
+  left: 57%;
   bottom: 0;
   width: 30px;
   height: 3px;
@@ -582,7 +582,7 @@ nav a:nth-child(4):after {
 
 #indicator4 {
   position: absolute;
-  left: 320px;
+  left: 74%;
   bottom: 0;
   width: 30px;
   height: 3px;
@@ -604,17 +604,17 @@ nav a:nth-child(1):hover ~ #indicator {
 }
 
 nav a:nth-child(2):hover ~ #indicator {
-  left: 114px;
+  left: 26%;
   background: linear-gradient(130deg, #00e2ff, #89ff00);
 }
 
 nav a:nth-child(3):hover ~ #indicator {
-  left: 245px;
+  left: 57%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 
 nav a:nth-child(4):hover ~ #indicator {
-  left: 320px;
+  left: 74%;
   background: linear-gradient(130deg, blue, orange);
 }
 
@@ -634,46 +634,46 @@ nav a:nth-child(1):hover ~ #indicator4 {
 }
 
 nav a:nth-child(2):hover ~ #indicator2 {
-  left: 114px;
+  left: 26%;
   background: linear-gradient(130deg, #00e2ff, #89ff00);
 }
 
 nav a:nth-child(2):hover ~ #indicator3 {
-  left: 114px;
+  left: 26%;
   background: linear-gradient(130deg, #00e2ff, #89ff00);
 }
 
 nav a:nth-child(2):hover ~ #indicator4 {
-  left: 114px;
+  left: 26%;
   background: linear-gradient(130deg, #00e2ff, #89ff00);
 }
 
 nav a:nth-child(3):hover ~ #indicator2 {
-  left: 245px;
+  left: 57%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 
 nav a:nth-child(3):hover ~ #indicator3 {
-  left: 245px;
+  left: 57%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 
 nav a:nth-child(3):hover ~ #indicator4 {
-  left: 245px;
+  left: 57%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 
 nav a:nth-child(4):hover ~ #indicator2 {
-  left: 320px;
+  left: 74%;
   background: linear-gradient(130deg, blue, orange);
 }
 nav a:nth-child(4):hover ~ #indicator3 {
-    left: 320px;
+    left: 74%;
     background: linear-gradient(130deg, blue, orange);
 }
 
 nav a:nth-child(4):hover ~ #indicator4 {
-  left: 320px;
+  left: 74%;
   background: linear-gradient(130deg, blue, orange);
 }
 

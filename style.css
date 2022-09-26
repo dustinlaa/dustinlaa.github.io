@@ -166,8 +166,10 @@ body {
 }
 
 #firstVideo {
-  display: grid;
-  grid-template-columns: auto auto;
+  /* display: grid; */
+  padding-left: 15%;
+  position: relative;
+  /* grid-template-columns: auto auto; */
   grid-gap: 25px;
 }
 .game {

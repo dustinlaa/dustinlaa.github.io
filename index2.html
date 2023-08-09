@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dustin La</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    </head>
+
+<!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dustin La</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#extracurriculars">Extracurriculars</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>               
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <a class="navbar-brand" href="#">drl3@njit.edu</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <body>
+<!-- Profile Pic -->
+        <div class = "circleImg" id = "home">
+            <img src="images/860A9930.jpg" alt="Profile Picture">
+        </div>
+        <div class = "section">
+            <div id = "intro">
+                <h1 class="title">Hello World!</h1>
+                <p>
+                    Hi! My name is Dustin La and I am majoring in Computer Science with a Minor in IT at the New Jersey Institute of Technology.
+                    <br></br>
+                    Nice to meet you :)
+                </p>
+            </div>
+        </div>
+<!-- About Me -->
+        <div class = "section" id = "aboutMe">
+            <div class = "aboutMe">
+                <h1 class="title"> About Me</h1>
+                <p>
+                In Summer 2021 and 2022, I worked as an Orientation Leader for NJIT's New Student Orientation and help guided over 1,600 incoming students support their educational and personal goals
+                <br></br>
+                From end of the semester Spring 2021 to Fall 2022, I was of the event coordinators for the NJIT Student Activities Council and I helped establish and facilitate 17 school-wide events for 500+ students
+                <br></br>
+                These positions helped with my time management, teamwork, and leadership skills. I'm looking to make an impact in a software development position that will allow me to apply and enhance my programming skills. 
+
+                </p>
+            </div>
+        </div>
+<!-- Projects -->
+        <div class = "section" id = "projects">
+            <div class = "projects">
+                <h1 class = "title">Projects</h1>
+                <div class = "row">
+                    <div class = "col">
+                        <div class = "colImg">
+                            <img src="images/marshmallow.png" alt = "Marshmallow" class = "colImg">
+                        </div>
+                    </div> 
+                    <div class = "col">
+                        <div class = "colDesc">
+                            <h3 class="subTitle"> Marshmallow Toast Simulator</h3>
+                            <p>
+                                Created during the HackNJIT 2022 Hackathon by Adrianna Rust, Andrew Dickman, Dustin La, and Hrishikesh Sakunala
+                                <br> </br>
+                                <b>-- Best Camping Themed Hack Winner -- </b>
+                                <br> </br>
+                                Used Python with the Pygame library to create a game where a user toasts their marshmallow to a scrumptious golden brown.
+                            
+                                Choose a duration of short, medium, or long to toast your marshmallow over the campfire.
+                            
+                                Based on this duration, you will toast your marshmallow and get it closer to Golden Brown!
+                            
+                                But be careful, too much toasting will burn your marshmallow.
+                            
+                                Continue to toast golden brown marshmallows to increase your streak and go for a high score!
+                                <br> </br>
+                                Skills Learned: Python, Pygame
+                            </p>
+                            <div id="projectLink">
+                                <a class="link" href="https://devpost.com/software/marshmallow-toast-simulator" target="_blank">
+                                    Devpost
+                                </a>
+                                <br></br>
+                                <a class="link" href="https://github.com/dustinlaa/marshmallowToastSimulator" target="_blank">
+                                    <i class="fab fa-github">&nbsp;</i>Github
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <br></br>
+                <div class = "divider"></div>
+                <div class = "row">
+                    <div class = "col">
+                        <div class = "colImg">
+                            <img src="images/simpleArcade.png" alt = "simpleArcade" class = "colImg">
+                        </div>
+                    </div> 
+                    <div class = "col">
+                        <div class = "colDesc">
+                            <h3 class="subTitle"> Simple Arcade</h3>
+                            <p>
+                                Simple Arcade is a project I made in my IT-202: Internet Applications Class. 
+                                <br> </br>
+                                Users play a simple HTML game for points and can register accounts to save their scores.  Users can create public and private profiles as well as competitions to challenge
+                                other users. There is also a weekly, monthly, and lifetime scoreboard for the game. For users with admin privileges, 
+                                they can create roles, edit competitions, and assign other users as admins.
+                                <br> </br>
+                                Skills Learned: HTML, PHP, CSS, JavaScript, SQL, Bootstrap
+                            </p>
+                            <div id="projectLink">
+                                <a class="link" href="https://drl3-prod.herokuapp.com/Project/login.php" target="_blank">
+                                    Project Site
+                                </a>
+                                <br></br>
+                                <a class="link" href="https://github.com/dustinlaa/IT202-011/tree/prod" target="_blank">
+                                    <i class="fab fa-github">&nbsp;</i>Github
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+
+        <div class = "section" id = "extracurriculars">
+            <div class = "activities">
+                <h1 class = "title">Extracurriculars</h1>
+                <div class = "row">
+                    <div class = "col">
+                        <div class = "colImg2">
+                            <img src="images/saclogo.png" alt = "SAC" class = "colImg">
+                        </div>
+                    </div> 
+                    <div class = "col">
+                        <div class = "colDesc">
+                            <h3 class="subTitle"> NJIT Student Activities Council</h3>
+                            <div class = "colDescReadMore">
+                                <p>
+                                    The New Jersey Institute of Technology Student Activity Council (SAC) is a group of fun-loving and 
+                                    ambitious students who desire to make an impact at NJIT. We do this by planning and hosting engaging 
+                                    experiences throughout the semester, aimed at bringing the campus community together.
+                                </p>
+                                <div class = "readMore">
+                                    <span>
+                                        <p>
+                                            I was one of the Event Coordinators for the Student Activities Council. I use my event planning, budgeting, volunteer mangement, communication, and teamwork skills to host successful events.
+                                            I have contacted agencies for different acts and supplies to help run 500+ person, school-wide events.
+                                            These events include Do It Yourself (DIY) Days, Game Shows, Movie Nights, and more!
+                                            <br></br>
+                                            I have also attended professional conferences including the National Association for Campus Activities (NACA) in Hartford where I was able to network with other
+                                            student activities councils, meet with vendors, and get ideas on more events to bring to NJIT.
+                                        </p>
+                                    </span>
+                                </div>
+                                <p class="readMoreBtn">Read More...</p>
+                            </div>
+                        </div>
+                    </div>      
+                    <br></br>
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg2">
+                                <img src="images/firstlogo.png" alt = "FIRST" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> FIRST Robotics</h3>
+                                <div class = "colDescReadMore">
+                                    <p>
+                                        For Inspiration and Recognition of Science and Technology, FIRST, is an organization promoting STEM and robotics to students in elementary, middle, and high school levels. 
+                                        I had the opportunity to be on a FIRST Robotics Competition Team in my high school years. During this competiton, teams are given a game each year and the challenge of
+                                        creating a robot to compete in competitions all around the world. FIRST greatly encourages teamwork, problem solving, learning, and leadership.
+                                    </p>
+                                    <div class = "readMore">
+                                        <span>
+                                            <p>
+                                                I was on Team 4361: Roxbotix from Roxbury, NJ. I was on the team for all four years
+                                                of high school and participated in the electrical and mechanical aspects of the robots. I also volunteered in community events such as demonstrations,
+                                                mentoring the middle school team, community clean ups, and more. 
+                                                <br></br>  
+                                                I became the Chairman's Award Leader during my senior year where I oversaw the production of a video, essay, and presentation to compete for this award.
+                                                This award showcased how my team is creating leaders and transforming the culture in ways that will inspire greater levels in STEM. 
+                                                <br></br>
+                                                FIRST Robotics has helped me gain a higher interest in STEM and has made a big impact in my life over the 4 years I was competing in high school.
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <p class="readMoreBtn">Read More...</p>
+                                </div>          
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Contact -->
+        <div class = "section" id = "contact">
+            <div class = "contact">
+                <h1 class = "title">Connect with Me!</h1>
+                <div id = "connectLinks">
+                    <a class="link" href="https://www.linkedin.com/in/dustin-la" target="_blank">
+                        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+                    </a>
+                    <a class="link" href="https://njit.joinhandshake.com/stu/users/27534499" target="_blank">
+                        Handshake
+                    </a>
+                    <a class="link" href="https://github.com/dustinlaa" target="_blank">
+                        <i class="fab fa-github">&nbsp;</i>Github
+                    </a>
+                    <a class="link" href="https://devpost.com/drl3?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank">
+                        Devpost
+                    </a>
+                </div>
+                <h3 class = "subTitleCentered">drl3@njit.edu | 862-273-5458</h1>
+            </div>
+        </div>
+        <script src="readMore.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+
+<!-- <img src="images/860A9930.jpg" alt="Profile Picture"> -->

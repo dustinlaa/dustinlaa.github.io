@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dustin La</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    </head>
+
+<!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dustin La</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">SAC</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">FIRST Robotics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Connect</a>
+                    </li>               
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <body>
+<!-- Profile Pic -->
+        <div id = "profilePic">
+            <img src="images/860A9930.jpg" alt="Profile Picture" class="card__img">
+        </div>
+        <div class="card-holder">
+            <div class="card">
+                <div class = "card-contents">
+                    <h1 class="card__name"> Hello World!</h1>
+                    <p>
+                        Hi! My name is Dustin La and I am majoring in Computer Science with a Minor in IT at the New Jersey Institute of Technology.
+                        <br></br>
+                        Nice to meet you :)
+                        <span class = "card__read-more">
+                            <br></br>
+                            In Summer 2021 and 2022, I worked as an Orientation Leader for NJIT's New Student Orientation and help guided over 1,600 incoming students support their educational and personal goals
+                            <br></br>
+                            From end of the semester Spring 2021 to Fall 2022, I was of the event coordinators for the NJIT Student Activities Council and I helped establish and facilitate 17 school-wide events for 500+ students
+                            <br></br>
+                            These positions helped with my time management, teamwork, and leadership skills. I'm looking to make an impact in a software development position that will allow me to apply and enhance my programming skills. 
+                        </span>
+                    </p>
+
+                    <p class = "read-more-btn">Read More...</p>
+                </div>
+            </div>
+<!-- Projects -->
+            <div class="card">
+                <div class = "card-contents">
+                    <h1 class="card__name"> Projects</h1>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "projectImg">
+                                <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/284/309/datas/medium.jpg">
+                            </div>
+                        </div>
+                        <div class = "col">
+                            <div class = "projectDesc">
+                                <h3 class="projectTitle"> Marshmallow Toast Simulator</h3>
+                                <p>
+                                    Created during the HackNJIT 2022 Hackathon by Adrianna Rust, Andrew Dickman, Dustin La, and Hrishikesh Sakunala
+                                    <br> </br>
+                                    <b>-- Best Camping Themed Hack Winner -- </b>
+                                    <br> </br>
+                                    Used Python with the Pygame library to create a game where a user toasts their marshmallow to a scrumptious golden brown.
+                              
+                                    Choose a duration of short, medium, or long to toast your marshmallow over the campfire.
+                              
+                                    Based on this duration, you will toast your marshmallow and get it closer to Golden Brown!
+                              
+                                    But be careful, too much toasting will burn your marshmallow.
+                              
+                                    Continue to toast golden brown marshmallows to increase your streak and go for a high score!
+                                    <br> </br>
+                                    Skills Learned: Python, Pygame
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://devpost.com/software/marshmallow-toast-simulator" target="_blank">
+                                        Devpost
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/marshmallowToastSimulator" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                        <h3 class="projectTitle"> Simple Arcade</h3>
+                        <div id = "projectImg">  
+                        <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/284/309/datas/medium.jpg">
+                        </div>
+                        <div class = "projects">
+                            Simple Arcade is a project I made in my IT-202: Internet Applications Class. 
+                            <br> </br>
+                            Users play a simple HTML game for points and can register accounts to save their scores.  Users can create public and private profiles as well as competitions to challenge
+                            other users. There is also a weekly, monthly, and lifetime scoreboard for the game. For users with admin privileges, 
+                            they can create roles, edit competitions, and assign other users as admins.
+                            <br> </br>
+                            Skills Learned: HTML, PHP, CSS, JavaScript, SQL, Bootstrap
+                            
+                            <br></br>
+                            <div id="projectLink2">
+                                <a class="link" href="https://drl3-prod.herokuapp.com/Project/login.php" target="_blank">
+                                    Project Site
+                                </a>
+                                <br></br>
+                                <a class="link" href="https://github.com/dustinlaa/IT202-011/tree/prod" target="_blank">
+                                    <i class="fab fa-github">&nbsp;</i>Github
+                                </a>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+<!-- Extracurriculars  -->
+            <div class="card">
+                <div class = "card-contents">
+                    <h1 class="card__name"> Extracurriculars</h1>
+                    <div id = "profilePic">
+                        <img src="images/860A9930.jpg" alt="Profile Picture" class="card__img">
+                    </div>
+                    <h3 class=""> Student Activities Council</h3>
+                    <p>
+                            I was one of the Event Coordinators for the Student Activities Council. I use my event planning, budgeting, volunteer mangement, communication, and teamwork skills to host successful events.
+                            I have contacted agencies for different acts and supplies to help run 500+ person, school-wide events.
+                            These events include Do It Yourself (DIY) Days, Game Shows, Movie Nights, and more!
+                        <span class = "card__read-more">
+                            The New Jersey Institute of Technology Student Activity Council (SAC) is a group of fun-loving and 
+                            ambitious students who desire to make an impact at NJIT. We do this by planning and hosting engaging 
+                            experiences throughout the semester, aimed at bringing the campus community together.
+                            I have also attended professional conferences including the National Association for Campus Activities (NACA) in Hartford where I was able to network with other
+                            student activities councils, meet with vendors, and get ideas on more events to bring to NJIT.
+                        </span>
+                    </p>
+
+                    <p class = "read-more-btn">Read More...</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="readMore.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+
+<!-- <img src="images/860A9930.jpg" alt="Profile Picture"> -->

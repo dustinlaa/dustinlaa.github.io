@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Read More with Transition</title>
+<style>
+  .colDescReadMore {
+    margin-bottom: 10px;
+  }
+
+  .readMore {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+
+  .readMore.show {
+    max-height: 200px; /* Adjust the value as needed */
+  }
+
+  .readMoreBtn {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<div class="level-1">
+  <div class="level-2">
+    <div class="level-3">
+      <div class="level-4">
+        <div class="colDescReadMore">
+          <p>This is the main content.</p>
+          <div class="readMore">
+            <p>These are the first two sentences of additional content that will be revealed when "Read More" is clicked.</p>
+            <span>This is the next span sentence of additional content.</span>
+          </div>
+          <p class="readMoreBtn">Read More...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="level-1">
+  <div class="level-2">
+    <div class="level-3">
+      <div class="level-4">
+        <div class="colDescReadMore">
+          <p>Another section.</p>
+          <div class="readMore">
+            <p>Additional content for the second section.</p>
+            <span>More hidden content.</span>
+          </div>
+          <p class="readMoreBtn">Read More...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const readMoreBtns = document.querySelectorAll('.readMoreBtn');
+
+  readMoreBtns.forEach(readMoreBtn => {
+    readMoreBtn.addEventListener("click", function() {
+      const colDescReadMore = readMoreBtn.closest('.colDescReadMore');
+      const readMoreContainer = colDescReadMore.querySelector('.readMore');
+      const spanContent = readMoreContainer.querySelector('span');
+
+      readMoreContainer.classList.toggle('show');
+      spanContent.classList.toggle('show');
+
+      readMoreBtn.textContent = readMoreContainer.classList.contains('show') ? 'Read Less...' : 'Read More...';
+    });
+  });
+});
+</script>
+
+</body>
+</html>

@@ -2,13 +2,13 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
         if (entry.isIntersecting) {
-            entry.target.classList.add('showDown');
+            entry.target.classList.add('showUp');
         } else {
-            entry.target.classList.remove('showDown');
+            entry.target.classList.remove('showUp');
         }
     });
 });
-const hiddenElements = document.querySelectorAll('.hiddenDown');
+const hiddenElements = document.querySelectorAll('.hiddenUp');
 hiddenElements.forEach((el) => observer.observe(el));
 
 

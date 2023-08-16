@@ -23,6 +23,7 @@ html {
 body {
   font-family: 'Poppins', 'san-serif';
   background-color: black;
+  justify-content: center;
 }
 
 body::before {
@@ -134,13 +135,13 @@ scroll-margin-top: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15vh auto 2vh; /* margin: top right bottom left */
+    margin: 10vh auto 2vh; /* margin: top right bottom left */
 }
 
 .circleImg img {
     object-fit: cover;
-    width: 15vw;
-    height: 15vw;
+    width: 30vh;
+    height: 30vh;
     display: block;
     border-radius: 50%;
     transition: transform 0.5s;
@@ -239,7 +240,7 @@ h1 {
 }
 
 p {
-  font-size: 17px;
+  font-size: 1.25vw;
   margin-bottom: 1rem;
 }
 
@@ -325,7 +326,7 @@ p {
     color: var(--accentColor); 
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.25vw;
     text-align: center;
     display: block;
     margin: 0vh 2vh 2vh 2vh;
@@ -372,7 +373,7 @@ p {
     color: var(--accentColor); 
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.25vw;
     text-align: center;
     display: block;
     margin: 0px 5vh 5vh 5vh;

@@ -14,7 +14,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  zoom: 100%;
 }
 
 html {
@@ -574,11 +573,4 @@ form button:hover {
   color: white;
   box-shadow:0 0 2rem rbga(0,0,0,0.1);
   transform: translateY(-5px);
-}
-
-@media (max-width: 768px) {
-  .section {
-    width: 100%; /* Full width on mobile */
-    font-size: 14px; /* Adjust font size for mobile */
-  }
 }

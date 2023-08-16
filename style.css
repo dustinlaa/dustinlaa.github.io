@@ -23,6 +23,9 @@ html {
 body {
   font-family: 'Poppins', 'san-serif';
   background-color: black;
+  margin: auto 50% auto;
+  overflow-x: hidden;
+  max-width: 70%;
 }
 
 body::before {

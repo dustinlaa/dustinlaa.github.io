@@ -23,9 +23,6 @@ html {
 body {
   font-family: 'Poppins', 'san-serif';
   background-color: black;
-  margin: auto 50% auto;
-  overflow-x: hidden;
-  max-width: 70%;
 }
 
 body::before {
@@ -75,14 +72,14 @@ body::before {
 }
 
 #home {
-  scroll-margin-top: 100px; 
+  scroll-margin-top: 100vh; 
 }
 
 #connect {
-scroll-margin-top: 200px;
+scroll-margin-top: 30vh;
 }
 #aboutMe, #projects, #extracurriculars, #contact {
-  scroll-margin-top: 50px;
+  scroll-margin-top: 10vh;
 }
 
 .showLeft {
@@ -113,8 +110,8 @@ scroll-margin-top: 200px;
 }
 
 .socialNav {
-  width: 40px;
-  height: 40px;
+  width: 3vw;
+  height: 5vh;
   display: inline-block;
   text-align: center;
   line-height: 40px;
@@ -137,13 +134,13 @@ scroll-margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px auto 10px auto; /* margin: top right bottom left */
+    margin: 15vh auto 2vh; /* margin: top right bottom left */
 }
 
 .circleImg img {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: 15vw;
+    height: 15vw;
     display: block;
     border-radius: 50%;
     transition: transform 0.5s;
@@ -181,13 +178,13 @@ scroll-margin-top: 200px;
 }
 
 .title {
-  font-size:4em;
+  font-size:4vw;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 5vh;
   
   &::before,
   &::after {
@@ -209,14 +206,14 @@ scroll-margin-top: 200px;
 }
 
 .divider {
-  font-size:4em;
+  font-size:4vw;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
   
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 5vh;
   opacity: 0.4;
   
   &::before,
@@ -248,12 +245,12 @@ p {
 
 .subTitle{
   text-align: left;
-  margin: 15px auto 15px auto;
+  margin: 5vh auto 5vh auto;
 }
 
 .subTitleCentered{
   text-align: center;
-  margin: 15px auto 15px auto;
+  margin: 5vh auto 5vh auto;
 }
 
 .section {
@@ -263,7 +260,7 @@ p {
     gap: 1rem;
     flex-wrap: wrap;
     text-align: center;
-    width: 80%;
+    max-width: 70%;
     color: white;
     opacity: 1;
     margin: 0.5rem auto;
@@ -331,9 +328,7 @@ p {
     font-size: 1rem;
     text-align: center;
     display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: 0vh 2vh 2vh 2vh;
     padding: 10px; 
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
@@ -380,14 +375,14 @@ p {
     font-size: 1rem;
     text-align: center;
     display: block;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 5vh 5vh 5vh;
     padding: 10px;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
     transition: all 0.5s;
     display: inline-block;
     color: #fff;
-    font-size: 1em;
+    font-size: 1vw;
     position: relative;
     z-index: 1;
     cursor: pointer; 
@@ -406,15 +401,15 @@ p {
 
 .galleryBody {
   display: flex;
-  margin: 25px auto 15px auto;
+  margin: 2vh auto 2vh auto;
   padding: 0 35px;
   align-items: center;
   justify-content: center;
   min-height: 50vh;
-  width: 80%;
+  max-width: 70%;
 }
 .wrapper {
-  max-width: 1100px;
+  max-width: 75vw;
   width: 100%;
   position: relative;
 }
@@ -489,7 +484,7 @@ p {
 
 .carousel .card {
   scroll-snap-align: start;
-  height:350px;
+  height:50vh;
   list-style: none;
   background: transparent;
   border-radius: 0px;

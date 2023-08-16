@@ -1,82 +1,501 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Dustin La">
-    <!-- <meta property="og:description" content="Connect with Me !"> -->
-    <meta property="og:image" content="https://i.imgur.com/waGT4SD.png">
-    <title>Dustin La - Home</title>
-    <!-- Favicon -->
-    <link rel="icon" href="images/860A9930.jpg" type="image/x-icon" />
-    <!-- Font Awesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!-- Core theme CSS -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-    <div id="sitename">
-      DUSTIN LA
-    </div>
-    <nav>
-      <a href="index.html">HOME</a>
-      <a href="projects.html">PROJECTS</a>
-      <a href="sac.html">SAC</a>
-      <a href="robotics.html">FIRST ROBOTICS</a>
-      <div id="indicator"></div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Dustin La">
+        <meta property="og:image" content="https://i.imgur.com/waGT4SD.png">
+        <title>Dustin La</title>
+        <!-- Favicon -->
+        <link rel="icon" href="images/WebsiteLogo.png" type="image/x-icon" />
+        <!-- Stylesheets -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script defer src = "transition.js"></script>
+        <script src="imageCarousel.js" defer></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="readMore.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
+<!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dustin La</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#extracurriculars">Extracurriculars</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#connect">Connect</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>               
+                </ul>
+                <!-- Social Nav -->
+                <ul class="navbar-nav ml-auto">
+                    <div class = "socialNav">
+                        <a class = "navIcon" href="https://www.linkedin.com/in/dustin-la" target= "_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class = "socialNav">
+                    <a class = "navIcon" href="https://github.com/dustinlaa" target= "_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    </div>
+                    <a class="navbar-brand" href="#">drl3@njit.edu</a>
+                    
+                </ul>
+            </div>
+        </div>
     </nav>
-  
-    <!-- Parallax Pixel Background Animation -->
-    <section class="animated-background">
-      <div id="stars1"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </section>
-    <!-- End of Parallax Pixel Background Animation -->
+    <body>
+<!-- Profile Pic -->
+        <div class = "circleImg" id = "home">
+            <img src="images/860A9930.jpg" alt="Profile Picture">
+        </div>
+        <div class = "section">
+            <div id = "intro">
+                <h1 class="title">Hello World!</h1>
+                <div class = "hiddenUp">
+                    <p>
+                        Hi! My name is Dustin La and I am majoring in Computer Science with a Minor in IT at the New Jersey Institute of Technology (NJIT).
+                        <br></br>
+                        Nice to meet you :)
+                    </p>
+                </div>
+            </div>
+        </div>
+<!-- About Me -->
+        <div class = "section" id = "aboutMe">
+            <div class = "aboutMe">
+                <h1 class="title"> About Me</h1>
+                <div class = "hiddenUp">
+                    <p>
+                    Throughout my time at NJIT, I have experienced many amazing opportunities. I worked as an Orientation Leader for NJIT's New Student Orientation and guided over 1,600 incoming students to support their educational and personal goals.
+                    <br></br>
+                    Additionally, I was of the event coordinators for the NJIT Student Activities Council and I established and facilitated 17 school-wide events for 500+ students.
+                    <br></br>
+                    Most recently, I was a Cloud Engineer intern at Avanade where I learned what it takes to plan, construct, test, and implement Cloud Infrastructures with Microsoft Technologies.
+                    <br></br>
+                    These positions helped with my time management, teamwork, and leadership skills. I'm looking to make an impact in a software development position that will allow me to apply and enhance my programming skills. 
+                    </p>
+                </div>
+            </div>
+        </div>
+<!-- Projects -->
+        <div class = "section" id = "projects">
+            <div class = "projects">
+                <h1 class = "title">Projects</h1>
+                <div class = "hiddenLeft">
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/simpleArcade.png" alt = "simpleArcade" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Simple Arcade</h3>
+                                <p>
+                                    I designed and created a web application that is based on a pre-made HTML game with custom modifications.
+                                    This web application uses PHP, CSS, and Bootstrap for visual layouts and page
+                                    connections. Additionally, I built an SQL Database for users to register accounts and save their game data. 
+                                    I used PHP and Javascript for saving scores, creating profiles, competitions, admin functions, and other users functions.
+                                    Finally, I queried the SQL Database to create weekly, monthly, and lifetime scoreboards. 
+                                    <br> </br>
+                                    Skills: HTML, PHP, CSS, JavaScript, SQL, Bootstrap
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3-prod.herokuapp.com/Project/login.php" target="_blank">
+                                        Project Site
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/IT202-011/tree/prod" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br></br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/marshmallow.png" alt = "Marshmallow" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Marshmallow Toast Simulator</h3>
+                                <p>
+                                    Created during the HackNJIT 2022 Hackathon by Adrianna Rust, Andrew Dickman, Dustin La, and Hrishikesh Sakunala
+                                    <br> </br>
+                                    <b>-- Best Camping Themed Hack Winner -- </b>
+                                    <br></br>
+                                    Used Python with the Pygame library to create a game where a user toasts their marshmallow to a scrumptious golden brown.
+                                    Choose a duration of short, medium, or long to toast your marshmallow over the campfire.
+                                    Based on this duration, you will toast your marshmallow and get it closer to Golden Brown!                              
+                                    But be careful, too much toasting will burn your marshmallow.
+                                    Continue to toast golden brown marshmallows to increase your streak and go for a high score!
+                                    <br> </br>
+                                    Skills Learned: Python, Pygame
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://devpost.com/software/marshmallow-toast-simulator" target="_blank">
+                                        Devpost
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/marshmallowToastSimulator" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br></br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/chickenRush.png" alt = "chickenRush" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Chicken Rush</h3>
+                                <p>
+                                    A Unity Project based on the Roll-a-Ball tutorial made into a platformer with new world and code features. 
+                                    These include player models, collectibles, obstacles, music, teleporters,
+                                    sound effects, custom movement, doors, menus, and camera rotation. 
+                                    <br> </br>
+                                    Collect 12 stars in each level and get to the purple platform before time runs out! 
+                                    <br> </br>
+                                    Skills Learned: Unity, C#
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3.itch.io/sprint-2-dustin-la" target="_blank">
+                                        Project Site
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br></br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/harvestValley.png" alt = "harvestValley" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Harvest Valley</h3>
+                                <p>
+                                    A Unity Project using Raycast Hit Detection, Simple AI, First Person Camera, Collisions, and enhanced with sounds, particle effects, 
+                                    3D models, and made in a custom made world. 
+                                    <br> </br>
+                                    Adventure through the valley to water crops, harvest them, and deposit. Explore the vast world while watering sprouts for crops, 
+                                    collecting coins for upgrades, climbing mountains with platforms, and spraying moles who will chase you down. 
+                                    Will you become the ultimate farmer? 
+                                    <br> </br>
+                                    Skills: Unity, C#
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3.itch.io/sprint-4-dustin-la" target="_blank">
+                                        Project Site
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Extracurriculars -->
+        <div class = "section" id = "extracurriculars">
+            <div class = "activities">
+                <h1 class = "title">Extracurriculars</h1>
+                <div class = "hiddenLeft">
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg2Container">
+                                <div class = "colImg2">
+                                    <img src="images/saclogo.png" alt = "SAC" class = "colImg2">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> NJIT Student Activities Council</h3>
+                                <div class = "colDescReadMore">
+                                    <p>
+                                        The New Jersey Institute of Technology Student Activities Council (SAC) is a group of fun-loving and 
+                                        ambitious students who desire to make an impact at NJIT. We do this by planning and hosting engaging 
+                                        experiences throughout the semester, aimed at bringing the campus community together.
+                                    </p>
+                                    <div class = "readMore">
+                                        <span>
+                                            <p>
+                                                I was one of the Event Coordinators for the Student Activities Council. I developed skills in event planning, budgeting, 
+                                                volunteer mangement, communication, and teamwork to host successful events.
+                                                I have contacted agencies for different acts and supplies to help run 500+ person, school-wide events.
+                                                These events include Do It Yourself (DIY) Days, Game Shows, Movie Nights, and more!
+                                                <br></br>
+                                                In addition to planning events, I attended professional conferences including the National Association for Campus Activities (NACA) in Hartford where I was able to network with other
+                                                student activities councils, meet with vendors, and get ideas on more events to bring to NJIT.
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <p class="readMoreBtn">Read More...</p>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+                <div class = "galleryBody">
+                    <div class="wrapper">
+                      <i id="left" class="fa-solid fa-angle-left"></i>
+                      <ul class="carousel">
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/zO3q-IYQ54I5qnG8V_pR9CmDvKPYaXPYE7fhGwBubu0KYLfs8Ip1zaAHt2d1GO7F0IYzfP3vAMlSQku9_PtC-8cllaGxfJrSof-zz-jC-oU75OeDvjNB-VbpkY0CfLeLQkbPcxX7CA=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/WlqSYOofvzkPM6zE-LWofYz1ZhnFkw1FkEq-9qN3M9VFx6Qdy_i7M891D_f4kuclH-N4j1GKURhzJET-drERyOzWiCSH24vBCbi4eVd8pSB7q0_2wscQx34ez36E62_NOLca0F0b6w=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/ca_TTr_f1AO2o9pOj1Xk_cPbFYhzGMfKq6miSSjRYqqg3TEBQCRB4ZWHtfKuGVBwQ7hp12yMxJiIEMT33cv0QZwY6hSrRd2skox90auYP9rw1o_svDAvOTlTBmZx1Auu5YUEt5dYiw=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/URTbVuzT4LqJivzthUE9_hghQmzuva2Thc2j6usfM51sKa4Zim0yP-BYRtYKQbCz5Y2NnKiYrNq5W4K8pcadg2WmA0AMUlfgqqO6YavEvQnaQDq-iBlkSfBufoHQGZnMHDO4ofLW2g=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/KmEM00cfOGIl0re-UfntWgUIhcqV8O7Uf1ryZ8FPRBKM2FxH3H_EmG3Ic0jPCWijzVT4pH1gHv4OdkfZw6lvfNN3CoxLafyG0PdIqzey0SFxe7d-d0UqkZy_EyvjGe3_N1mug_g59g=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/yf4dDReCUDe2fy8Kdi22QOAJo3nXgwsa2XNjNglrcCWILsTPDlB1OzqDm6h9tc0ciSdy6eugTAqGoRKnmOT-UkY2ua3LibF-zodAaI5Sadprrjb-MhfI5O467sIyr8vLbGOhq6Ldgg=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/eqpvYyxCVXaCYNyRtQUuVO2NXS6PTNGQ2IMxNBj4GTr2QuNpV1jQvVN-SwlEz9hgk2BKMCYD21Exx6AoC_MU7pK4lSKZPSeX9BwS7q4LeM451ULznj2_pqOBw4P1zF-BTI9LUae4Lw=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/yEL6GCwx72GeDq7SSehGc9NeBkSXUZmjN3Gv4f_IHJcBAh5nWoy8CmceFLwUuESS-QkONPKZOU37rxL1JQ5smwpBx3Uu7Os0PXXVGvxjS6-jcKgXDvSDtdT39BhAh59uxFEWKj7FqQ=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/HGD6iEU2sHXvdTAaPm1TSK6RnWs5zrl811uUZAKOomXYMQxogTIulk0Uqa0ePTH474M3WUfiq-X3yU_dk02nW8QKtjdB8OY8Gb5BH--Z8FO3ELcEntMlPJYc9nYUmXrs404Tz6YRIg=w2400" alt="img" draggable="false"></div>
+                        </li>
+                      </ul>
+                      <i id="right" class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <br></br>
+                <div class = "activities">
+                    <div class = "hiddenLeft">
+                        <div class = "divider"></div>
+                        <div class = "row">
+                            <div class = "col">
+                                <div class = "colImg2Container">
+                                    <div class = "colImg2">
+                                        <img src="images/firstlogo.png" alt = "FIRST" class = "colImg2">
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class = "col">
+                                <div class = "colDesc">
+                                    <h3 class="subTitle"> FIRST Robotics</h3>
+                                    <div class = "colDescReadMore">
+                                        <p>
+                                            For Inspiration and Recognition of Science and Technology, FIRST, is an organization promoting STEM and robotics to students in elementary, middle, and high school levels. 
+                                            I had the opportunity to be on a FIRST Robotics Competition Team in my high school years. During this competiton, teams are given a game each year and the challenge of
+                                            creating a robot to compete in competitions all around the world. FIRST greatly encourages teamwork, problem solving, learning, and leadership.
+                                        </p>
+                                        <div class = "readMore">
+                                            <span>
+                                                <p>
+                                                    I was on Team 4361: Roxbotix from Roxbury, NJ. I was on the team for all four years
+                                                    of high school and participated in the electrical and mechanical aspects of the robots. I also volunteered in community events such as demonstrations,
+                                                    mentoring the middle school team, community clean ups, and more. 
+                                                    <br></br>  
+                                                    I became the Chairman's Award Leader during my senior year where I oversaw the production of a video, essay, and presentation to compete for this award.
+                                                    This award showcased how my team is creating leaders and transforming the culture in ways that will inspire greater levels in STEM. 
+                                                    Th video produced can be seen below. 
+                                                    <br></br>
+                                                    FIRST Robotics has helped me gain a higher interest in STEM and has made a big impact in my life over the 4 years I was competing in high school.
+                                                </p>
+                                            </span>
+                                        </div>
+                                        <p class="readMoreBtn">Read More...</p>
+                                    </div>          
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <!-- <br></br> -->
+                <div class = "galleryBody">
+                    <div class="wrapper">
+                      <i id="left" class="fa-solid fa-angle-left"></i>
+                      <ul class="carousel">
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/LltuQOAiUNbdoyD0V3xHnsk2LuNqoXtbWAt2WfrJdze247BDw3a8xPyTMy0cRIBI_oORzpqZ1GOBGXDfj3TKlth8F782BnlKnNUjkCTZ0-7AUO4XU9tfro6gTcQC5YwuWTmc2lTk6A=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/r1QxBHyeqlsxd2jMDA_e604wwgRB3BuIXfYyeNcbBwDkcjeMRFT1Q8ON2xMCaYJ4eJ9FrRb5UVOttL9ZI56uTl7K2SIx_Qo2keIps7oEPPxccv2R6idWAumkIW6ko0YbqnsDyrHlrw=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/4GQJWYV1SOfbZQO_8-wN_gZ9ajLLuwCuvsvTPgu2dOJS-IMiB01T3JhbQ4MZVs2tPVdWWDJnW9rs2a0CKEZpIAWhcuactdWhT9QESvJWxLG7AiEuSMqt-CkMjsqP1NrqDiS0DMnSqQ=w2400" alt="img" draggable="false"></div>
+                        </li> 
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/3rlx9w414scC9xxGHx86ejgB8TyliR6JCyzZCKrBJjMDbnWl1xU6Bk8t7R2qFyi8wrHs1CuXgf_eRNCdI6Jz0xXqscbzzjP7zfx_eDmOUNx53FL4lkxLAmX3ULmi40Oh42cNIIRNRQ=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/dIpGcX12YQknm9Rw-3FxYxvlisLeCDuh6ggw5Bx14FUczKoe68zNr7G0J4WfEJwTwTmUXpPxfaY9nf216alpOeZmMlvmnbC62HSd5FX2xCkuxo_4jKl-y33hEJSt1LHaGCFbLYK9Fw=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/n_fjKUgZBI5joK6vQ-IBXu_vvw8qOwGehgbjtX1T2ADqFY3cEZCmri8DN2ExO1hPGa7qKZfxMLgorQeWtEo6rSn5cKd7XyqqY64vFV9yuWXmLo-j05Vz6RW3eBFkjNmALRhK4Bws_w=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/SO08aHQhCm5q7oSmUsai-TiPDVEGd13SfzYccgMNwMF2iKDfW9_e6s_hAVpoudC1xQnrR4Ayzqk9jmYo1PZVJ4iGt_y1knmxdOgCLs2saL98UlFZQuXI8uzNhdh5xW4-hdyk1ET8qQ=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/IWj9B05t1miHn1xIUo9kfPppyX5hgW-NR9fZUTBvSOGWhxzx_WMG64Qswbd0qKIG3SXWDtvs0yGzeO58BuQbX0e1sKqRibY8MSUIf9nkj4kNJhBaLRX2-8U_W3zaacqb0ymru1RzHA=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/ZR3h7F1-OxxezaopMNaKrhssbWFcuPgtHSCWFvplrlrPCf0fldSOXQNhu1a463MvFMQrdht6bEk3mySdjS4CwjVQnL13JU-JTFEp3hQlQa0h0J3ceFP4uRaEr9cjgN7Vh477kR1uLw=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/4q2490yaSvzPc0qQaPT9INr8NFUBX6Jy1PdinerNALab1_lOgrjfW8WwbT3gSbAFIO5Hatw604ydW6hCmGt7FuxZ8NCvWbKm9IfJD6v6fGYUjHIJq5YTuscZhDzt3U4PG8Kfaifj4w=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/foIgBYcnkwgL5xeo80jI-oZgoE0ImZNdZjC52YnR5dofI16-z46gJR1_aHv5vkl1WVl2spa5Bg4lwXap5M1U65RUxoqUm-LDX_oZTz49guTVUBjRI0OlS_EUN7yLUoR3SZpqPjIRMQ=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/F-RJbv2bZIRdjGEYE3LTFKpkmHDZpgKVdkOkgq7pRMNdR7XzVIXrMNiPWU16V9kl6XtmOOM7BEQjoSx8HQITABzVelTj6c4xoPVraKJbEMfFN9jcQVe1R2UGexv8Ou5R5F_miyAffw=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/TDrg7NUYHv9rqvdmF5c3wAv37h4cBo06FNmRaIqI72Ml7N0vSyj50TxciQN34H__xpKzZAr9b0CnMxWNUMccpvazp993EDrrYyRF2yqT6EiJxX8bcI9Q5270LQvfL94QSggG-Yxb8w=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/Lt55PnCqgWnh4-pJygSQPhN2SNuNf8ypH7qDYVoLYBKQuAdiEhlrzofma4oMsKMB2ArxZ3yAGsBXMUpFlLXQXKZzv5q3y8WgX2zLJq7Q1bD0fNGXzHl-x-JLRmD5HbRjmRGluacnDg=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/-76jxygJ352-ShglYndt82J9K2QXX3Zq6mXlWspK1gin1J5_S0vhQbWVc72ZGIpf2sCMLgUj-kHV9VlEqZoHb977XRefiJcvmXIcT1m3k_BjDxXtp2nL0ABv9fk-_YlAQHSJFEetiA=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/iiADm2EIyH82YtLoFaLUBHt-U-kPuO2D5HGXLf1zj5HS2XTgaZzgAUQak1bYuPTBhbvDYjKnQYslUBqRh7KvYtfKGLThTEuotDpUiHKWvDOtnIdKOiaXqccAAZR486_LditQxYIMZQ=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/hHcrrbr538eMxyPxzhg2hy1rkn8rxnHPvDPJJg8pW-WAmu5zpeXmVKmmL2Cp01bmxbICBBhe4gMIurDdJCJinmrKt7N-HCmMhtHtnSKT0TlMFbPH1NIYwWDBduRslKG5lF5O28-9Jg=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/dGVa4Egby7IiM5p45fuEd2YML8dwv_2ncsZl206W2txA-QfsrCgeeTgSxnLiByK1WedNq5VWFzjLHOeoT67YeJgZ2QUP_oknhl27yJFNNCxuTtLoT7apkmIvPStoEb8InVcvf_ieDw=w2400" alt="img" draggable="false"></div>
+                        </li>      
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/GPUMLHQJP2qtBffIegZvYXhwIhTAfLCw-KJS6b3CbQOYQzH3aPVihUrAZ-M8C0U-pqLN-uJbOa0DumU4G6S1JEKfQ-5oNcSd62oVgH8aNFkX3jRpY2Is1x3_0dUQqMaTBRAaPDJbZA=w2400" alt="img" draggable="false"></div>
+                        </li>      
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/8T93p3XrpXP0NnLzAjazNz5tu4Hks-zzF6ZnoiV55EYO845SQ4IWLoXNTELQ1zksAa3chUgJ8Nokv9k1_OcsM1DPYuZL1dcAHifLzlt16zo3Jfz_Vs_lBoNPOalBT3k80MGuQCboVQ=w2400" alt="img" draggable="false"></div>
+                        </li>        
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/8ORRFkFG2wJRb2NyG454G3O_3ImNiVhdnnImcD-elBjsMBtmlS-OzKOPejn2X2BpQOvOMNfMu3SWgO-EFvOLgOb0i4nzboAGBiYByqy7bIiC3p-1bUA_hN4zuKdglGr26-2e2qE1pA=w2400" alt="img" draggable="false"></div>
+                        </li>           
+                      </ul>
+                      <i id="right" class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class = "galleryBody">
+                    <div class="wrapper">
+                      <i id="left" class="fa-solid fa-angle-left"></i>
+                      <ul class="carousel">
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jd29kzjclV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/OiY-_RUfAvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EMiNmJW7enI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HZbdwYiCY74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <div id="profileHome">
-      <img src="images/860A9930.jpg" alt="Profile Picture">
-    </div>
-    
-    <div id="about" style = "width:60%;">
-      Hi! My name is Dustin La and I am a third-year majoring in Computer Science at New Jersey Institute of Technology.
-      <br></br>
-      In Summer 2021 and 2022, I worked as an Orientation Leader for NJIT's New Student Orientation and help guided over 1,600 incoming students support their educational and personal goals
-      <br></br>
-      From end of the semester Spring 2021 to Fall 2022, I was of the event coordinators for the NJIT Student Activities Council and I helped establish and facilitate 17 school-wide events for 500+ students
-      <br></br>
-      These positions helped with my time management, teamwork, and leadership skills. I'm looking to make an impact in a software development position that will allow me to apply and enhance my programming skills. 
-      <br></b>
-      <br></b>
-      Nice to meet you :)
-
-    </div>
-    <br></b>
- 
-    <div id="linksHome">
-      <a class="link" href="https://www.linkedin.com/in/dustin-la" target="_blank">
-        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
-      </a>
-      <a class="link" href="https://njit.joinhandshake.com/stu/users/27534499" target="_blank">
-        Handshake
-      </a>
-      <a class="link" href="https://github.com/dustinlaa" target="_blank">
-        <i class="fab fa-github">&nbsp;</i>Github
-      </a>
-      <a class="link" href="https://devpost.com/drl3?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank">
-        Devpost
-      </a>
-
-
-    </div>
-    <div id="about" style = "padding-bottom: 50px;">
-      drl3@njit.edu | 862-273-5458
-    </div>
-  </body>
+                        </li>
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Mew6G_og-PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>    
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gmiYWTmFRVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>             
+                      </ul>
+                      <i id="right" class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Connect -->
+        <div class = "section" id = "connect">
+            <div class = "connnect">
+                <h1 class = "title">Connect with Me!</h1>
+                <div class = "hiddenUp">
+                    <div id = "connectLinks">
+                        <a class="link" href="https://www.linkedin.com/in/dustin-la" target="_blank">
+                            <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+                        </a>
+                        <a class="link" href="https://njit.joinhandshake.com/stu/users/27534499" target="_blank">
+                            Handshake
+                        </a>
+                        <a class="link" href="https://github.com/dustinlaa" target="_blank">
+                            <i class="fab fa-github">&nbsp;</i>Github
+                        </a>
+                        <a class="link" href="https://devpost.com/drl3?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank">
+                            Devpost
+                        </a>
+                    </div>
+                    <h3 class = "subTitleCentered">drl3@njit.edu</h1>
+                </div>
+            </div>
+        </div>
+<!-- Contact -->
+        <div class = "section" id = "contact">
+            <h1 class = "title" id = "contact">Contact</h1>
+            <div class= "contact">
+                <div class = "hiddenUp">
+                    <form action="https://formspree.io/f/xpzgpbgw" method="POST">
+                        <h3> Feel free to contact me!</h3>
+                        <input type="text" name="First Name" placeholder=" First Name" autocomplete="false" required>
+                        <input type="text" name="Last Name" placeholder=" Last Name" autocomplete="false" required>
+                        <input type="email" name="Email" placeholder=" Email" autocomplete="false" required>
+                        <textarea name="Message" rows="4" cols="60" placeholder=" Your Message" autocomplete="false"></textarea>
+                        <button type ="submit">Send Message!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

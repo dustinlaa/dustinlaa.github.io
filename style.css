@@ -680,6 +680,9 @@ form button:hover {
         font-size: 1.75em;
     }
 
+    .projects .title {
+      font-size: 1.75em;
+    }
     #connectTitle {
         font-size: 1.75em;
     }
@@ -723,7 +726,7 @@ form button:hover {
     #roboticsGallery2 {
         margin-top: -100px;
     }
-    
+
     #FIRST{
         display: flex;
         justify-content: center; 
@@ -745,7 +748,7 @@ form button:hover {
     }
 
     .link {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         justify-content: center;
         align-items: center;
     }
@@ -757,5 +760,13 @@ form button:hover {
     .contact .hiddenUp {
         max-width: 100%;
         margin: -75px auto 10px;
+    }
+
+    form input, form textarea {
+        font-size: 12px;
+    } 
+    form h3 {
+      font-size: 1.25em;
+      text-align: center;
     }
 }

@@ -134,7 +134,7 @@ scroll-margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5% auto 10px auto; /* margin: top right bottom left */
+    margin: 7% auto 10px auto; /* margin: top right bottom left */
 }
 
 .circleImg img {

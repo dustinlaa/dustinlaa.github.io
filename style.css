@@ -594,7 +594,7 @@ form button:hover {
     }
 
     .title {
-        font-size: 2em; 
+        font-size: 1.7em; 
 
         &::before,
         &::after {
@@ -678,18 +678,47 @@ form button:hover {
 
     .activities .title {
         font-size: 1.7em;
+        &::before,
+        &::after {
+            content: '';
+            display: block;
+            height: 0.09em;
+            min-width: 20vw;
+        }
     }
 
     .projects .title {
       font-size: 1.7em;
+      &::before,
+      &::after {
+          content: '';
+          display: block;
+          height: 0.09em;
+          min-width: 20vw;
+      }
     }
     #connectTitle {
         font-size: 1.7em;
+        &::before,
+        &::after {
+            content: '';
+            display: block;
+            height: 0.09em;
+            min-width: 20vw;
+        }
     }
 
     #contact.title {
         font-size: 1.7em;
+        &::before,
+        &::after {
+            content: '';
+            display: block;
+            height: 0.09em;
+            min-width: 20vw;
+        }
     }
+
     .colImg2Container {
         height: 150px;
       
@@ -724,7 +753,7 @@ form button:hover {
     }
 
     #roboticsGallery2 {
-        margin-top: -100px;
+        margin-top: -30px;
     }
 
     #FIRST{

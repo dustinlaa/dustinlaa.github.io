@@ -269,6 +269,9 @@ p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
 }
 
+#contact.section {
+    margin-bottom: 10vh;
+}
 #extracurriculars.section {
   margin-bottom: -50px;
 }
@@ -501,7 +504,6 @@ p {
 .card .img img {
     height: 100%;
     width: 100%;
-    border-radius: 50%;
     object-fit: contain;
     /* user-drag: none; */
     -webkit-user-drag: none;
@@ -578,6 +580,21 @@ form button:hover {
     transform: translateY(-5px);
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+    color: white;
+    opacity: 1;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    margin-bottom: 5vh;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
+}
 @media (max-width: 768px) {
     body {
         overflow-x: hidden;
@@ -783,7 +800,7 @@ form button:hover {
     }
 
     #contact.section {
-        margin: 100px auto 25px;
+        margin: 100px auto -50px auto;
         width: 100%;
     }
     .contact .hiddenUp {

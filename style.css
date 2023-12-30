@@ -39,55 +39,55 @@ body::before {
   z-index: -1;
 }
 
-.hiddenUp {
+/* .hiddenUp {
   opacity: 0;
   filter: blur(5px);
   transform: translateY(75%);
   transition: all 1s ; 
-}
+} */
 
-@media(prefers-reduced-motion) {
+/* @media(prefers-reduced-motion) {
   .hiddenUp {
       transition: none; 
   }
-}
+} */
 
-.showUp {
+/* .showUp {
   opacity: 1;
   filter: blur(0);
   transform: translateY(0);
-}
+} */
 
-.hiddenLeft {
+/* .hiddenLeft {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all 1s ; 
-}
+} */
 
-@media(prefers-reduced-motion) {
+/* @media(prefers-reduced-motion) {
   .hidddenLeft {
       transition: none; 
   }
-}
+} */
 
 #home {
-  scroll-margin-top: 100px; 
+  scroll-margin-top: 500px; 
 }
 
 #connect {
 scroll-margin-top: 200px;
 }
+
 #aboutMe, #projects, #extracurriculars, #contact {
-  scroll-margin-top: 50px;
+  scroll-margin-top: 65px;
 }
 
-.showLeft {
+/* .showLeft {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-}
-
+} */
 
 .nav-link {
     transition: all 0.5s ease;
@@ -273,10 +273,10 @@ p {
     margin-bottom: 10vh;
 }
 #extracurriculars.section {
-  margin-bottom: -50px;
+    margin-bottom: -50px;
 }
 .aboutMe {
-  text-align: left;
+    text-align: left;
 }
 
 .colImg {
@@ -622,9 +622,9 @@ footer {
         }
     }
 
-    #intro .hiddenUp{
+    /* #intro .hiddenUp{
         text-align: center;
-    }
+    } */
 
     p {
         font-size: 12px;
@@ -634,9 +634,9 @@ footer {
         margin-right: auto;
     }
 
-    .intro #hiddenUp p {
+    /* .intro #hiddenUp p {
         text-align: center;
-    }
+    } */
 
     .section {
         margin-bottom: -10px;
@@ -803,10 +803,10 @@ footer {
         margin: 100px auto -50px auto;
         width: 100%;
     }
-    .contact .hiddenUp {
+    /* .contact .hiddenUp {
         max-width: 100%;
         margin: -75px auto 10px;
-    }
+    } */
 
     form input, form textarea {
         font-size: 12px;

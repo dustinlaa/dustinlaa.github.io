@@ -69,10 +69,10 @@
             </div>
         </nav>
 <!-- Profile Pic -->
-        <div class = "circleImg" id = "home">
+        <div class = "circleImg">
             <img src="images/860A9930.jpg" alt="Profile Picture">
         </div>
-        <div class = "section">
+        <div class = "section" id="home">
             <div id = "intro">
                 <h1 class="title">Hello World!</h1>
                 <div class = "hiddenUp">
@@ -85,7 +85,7 @@
             </div>
         </div>
 <!-- About Me -->
-        <div class = "section" id = "aboutMe">
+        <div class = "section" id="aboutMe">
             <div class = "aboutMe">
                 <h1 class="title"> About Me</h1>
                 <div class = "hiddenUp">
@@ -102,102 +102,33 @@
             </div>
         </div>
 <!-- Projects -->
-        <div class = "section" id = "projects">
+        <div class = "section" id="projects">
             <div class = "projects">
                 <h1 class = "title">Projects</h1>
                 <div class = "hiddenLeft">
                     <div class = "row">
                         <div class = "col">
                             <div class = "colImg">
-                                <img src="images/simpleArcade.png" alt = "simpleArcade" class = "colImg">
+                                <img src="images/wikiHunt.png" alt = "wikiHunt" class = "colImg">
                             </div>
                         </div> 
                         <div class = "col">
                             <div class = "colDesc">
-                                <h3 class="subTitle"> Simple Arcade</h3>
+                                <h3 class="subTitle">WikiHunt</h3>
                                 <p>
-                                    I designed and created a web application that is based on a pre-made HTML game with custom modifications.
-                                    This web application uses PHP, CSS, and Bootstrap for visual layouts and page
-                                    connections. Additionally, I built an SQL Database for users to register accounts and save their game data. 
-                                    I used PHP and Javascript for saving scores, creating profiles, competitions, admin functions, and other users functions.
-                                    The SQL Database is queried to create dynamic weekly, monthly, and lifetime scoreboards. 
+                                    Created by Peter Akdemir, Michael Gallo, Dustin La, and Joshua Quizon
                                     <br> </br>
-                                    Skills: HTML, PHP, CSS, JavaScript, SQL, Bootstrap
+                                    A recreation of the Wikipedia game created to be in "Wordle" Style where each day there is a brand  
+                                    new pair of daily start and end words. Developed using Svelte for creating the web application, MongoDB for the word storage, Express, and Node.
+                                    Deployed using Vercel. 
+                                    <br> </br>
+                                    Play each day to navigate from one word to another using only links on Wikipedia pages! Navigate using the least amount of
+                                    links clicked as well as fastest time. Once finished, share your score and challenge your friends!
+                                    <br> </br>
+                                    Skills: Svelte, MongoDB (NoSQL), Express, Node
                                 </p>
                                 <div id="projectLink">
-                                    <a class="link" href="https://drl3-prod.herokuapp.com/Project/login.php" target="_blank">
-                                        Project Site
-                                    </a>
-                                    <br></br>
-                                    <a class="link" href="https://github.com/dustinlaa/IT202-011/tree/prod" target="_blank">
-                                        <i class="fab fa-github">&nbsp;</i>Github
-                                    </a>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <br></br>
-                <div class = "hiddenLeft">
-                    <div class = "divider"></div>
-                    <div class = "row">
-                        <div class = "col">
-                            <div class = "colImg">
-                                <img src="images/marshmallow.png" alt = "Marshmallow" class = "colImg">
-                            </div>
-                        </div> 
-                        <div class = "col">
-                            <div class = "colDesc">
-                                <h3 class="subTitle"> Marshmallow Toast Simulator</h3>
-                                <p>
-                                    Created during the HackNJIT 2022 Hackathon by Adrianna Rust, Andrew Dickman, Dustin La, and Hrishikesh Sakunala
-                                    <br> </br>
-                                    <b>-- Best Camping Themed Hack Winner -- </b>
-                                    <br></br>
-                                    Used Python with the Pygame library to create a game where a user toasts their marshmallow to a scrumptious golden brown.
-                                    Choose a duration of short, medium, or long to toast your marshmallow over the campfire.
-                                    Based on this duration, you will toast your marshmallow and get it closer to Golden Brown!                              
-                                    But be careful, too much toasting will burn your marshmallow.
-                                    Continue to toast golden brown marshmallows to increase your streak and go for a high score!
-                                    <br> </br>
-                                    Skills Learned: Python, Pygame
-                                </p>
-                                <div id="projectLink">
-                                    <a class="link" href="https://devpost.com/software/marshmallow-toast-simulator" target="_blank">
-                                        Devpost
-                                    </a>
-                                    <br></br>
-                                    <a class="link" href="https://github.com/dustinlaa/marshmallowToastSimulator" target="_blank">
-                                        <i class="fab fa-github">&nbsp;</i>Github
-                                    </a>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <br></br>
-                <div class = "hiddenLeft">
-                    <div class = "divider"></div>
-                    <div class = "row">
-                        <div class = "col">
-                            <div class = "colImg">
-                                <img src="images/chickenRush.png" alt = "chickenRush" class = "colImg">
-                            </div>
-                        </div> 
-                        <div class = "col">
-                            <div class = "colDesc">
-                                <h3 class="subTitle"> Chicken Rush</h3>
-                                <p>
-                                    A Unity Project based on the Roll-a-Ball tutorial made into a platformer with new world and code features. 
-                                    These include player models, collectibles, obstacles, music, teleporters,
-                                    sound effects, custom movement, doors, menus, and camera rotation. 
-                                    <br> </br>
-                                    Collect 12 stars in each level and get to the purple platform before time runs out! 
-                                    <br> </br>
-                                    Skills Learned: Unity, C#
-                                </p>
-                                <div id="projectLink">
-                                    <a class="link" href="https://drl3.itch.io/sprint-2-dustin-la" target="_blank">
+                                    <a class="link" href="https://wikihunt-game.vercel.app/" target="_blank">
                                         Project Site
                                     </a>
                                 </div>
@@ -205,67 +136,33 @@
                         </div> 
                     </div>
                 </div>
-                <br></br>
+                <br>
                 <div class = "hiddenLeft">
                     <div class = "divider"></div>
                     <div class = "row">
                         <div class = "col">
                             <div class = "colImg">
-                                <img src="images/harvestValley.png" alt = "harvestValley" class = "colImg">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/bRbF6phE7Fo?si=081Jt7bC0pbL1eZf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div> 
                         <div class = "col">
                             <div class = "colDesc">
-                                <h3 class="subTitle"> Harvest Valley</h3>
+                                <h3 class="subTitle">Beats to Blocks</h3>
                                 <p>
-                                    A Unity Project using Raycast Hit Detection, Simple AI, First Person Camera, Collisions, and enhanced with sounds, particle effects, 
-                                    3D models, and made in a custom made world. 
+                                    Created by Peter Akdemir, Dustin La, Joshua Quizon, and Rahul Shah
                                     <br> </br>
-                                    Adventure through the valley to water crops, harvest them, and deposit. Explore the vast world while watering sprouts for crops, 
-                                    collecting coins for upgrades, climbing mountains with platforms, and spraying moles who will chase you down. 
-                                    Will you become the ultimate farmer? 
+                                    A stem separation and MIDI transcription program built using Python, Google Colab, the stem splitting models of
+                                    Deezer's Spleeter and Facebook's Demucs models, the MIDI transcription models of Google Magenta's MT3 and Spotify Basic Pitch models, and Open Note Block Studio
+                                    to convert any song into a Minecraft Note Block Cover.
                                     <br> </br>
-                                    Skills: Unity, C#
+                                    Skills: Python, Machine Learning
                                 </p>
                                 <div id="projectLink">
-                                    <a class="link" href="https://drl3.itch.io/sprint-4-dustin-la" target="_blank">
+                                    <a class="link" href="https://beatstoblocks.github.io/" target="_blank">
                                         Project Site
                                     </a>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <br></br>
-                <div class = "hiddenLeft">
-                    <div class = "divider"></div>
-                    <div class = "row">
-                        <div class = "col">
-                            <div class = "colImg">
-                                <img src="images/findMyAlien.png" alt = "findMyAlien" class = "colImg">
-                            </div>
-                        </div> 
-                        <div class = "col">
-                            <div class = "colDesc">
-                                <h3 class="subTitle">Find My Alien!</h3>
-                                <p>
-                                    Created during the GirlHacks 2023 Hackathon by Dustin La, Gabriel Pascual, Joshua Quizon, and Peter Akdemir
-                                    <br> </br>
-                                    <b>-- Best Use of MongoDB Atlas Winner -- </b>
-                                    <br> </br>
-                                    A web application using the Streamlit framework in Python to create a fast-paced competitive game about finding space aliens in user uploaded images.
-                                    We used React to incorporate the alien placement feature and MongoDB for user accounts, leaderboard, image creation, and image storage. 
-                                    <br> </br>
-                                    Welcome to Find My Alien!!! Find a cheeky little alien in these user-uploaded images and get the best time! May the alien hunt begin!
-                                    <br> </br>
-                                    Skills: Python, React, MongoDB (NoSQL)
-                                </p>
-                                <div id="projectLink">
-                                    <a class="link" href="https://devpost.com/software/find-my-alien" target="_blank">
-                                        Devpost
-                                    </a>
                                     <br></br>
-                                    <a class="link" href="https://github.com/jbq2/Girlhacks2023" target="_blank">
+                                    <a class="link" href="https://github.com/dustinlaa/beats-to-blocks" target="_blank">
                                         <i class="fab fa-github">&nbsp;</i>Github
                                     </a>
                                 </div>
@@ -273,7 +170,7 @@
                         </div> 
                     </div>
                 </div>
-                <br></br>
+                <br>
                 <div class = "hiddenLeft">
                     <div class = "divider"></div>
                     <div class = "row">
@@ -316,10 +213,180 @@
                         </div> 
                     </div>
                 </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/findMyAlien.png" alt = "findMyAlien" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">Find My Alien!</h3>
+                                <p>
+                                    Created during the GirlHacks 2023 Hackathon by Dustin La, Gabriel Pascual, Joshua Quizon, and Peter Akdemir
+                                    <br> </br>
+                                    <b>-- Best Use of MongoDB Atlas Winner -- </b>
+                                    <br> </br>
+                                    A web application using the Streamlit framework in Python to create a fast-paced competitive game about finding space aliens in user uploaded images.
+                                    We used React to incorporate the alien placement feature and MongoDB for user accounts, leaderboard, image creation, and image storage. 
+                                    <br> </br>
+                                    Welcome to Find My Alien!!! Find a cheeky little alien in these user-uploaded images and get the best time! May the alien hunt begin!
+                                    <br> </br>
+                                    Skills: Python, React, MongoDB (NoSQL)
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://devpost.com/software/find-my-alien" target="_blank">
+                                        Devpost
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/jbq2/Girlhacks2023" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/harvestValley.png" alt = "harvestValley" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Harvest Valley</h3>
+                                <p>
+                                    A Unity Project using Raycast Hit Detection, Simple AI, First Person Camera, Collisions, and enhanced with sounds, particle effects, 
+                                    3D models, and made in a custom made world. 
+                                    <br> </br>
+                                    Adventure through the valley to water crops, harvest them, and deposit. Explore the vast world while watering sprouts for crops, 
+                                    collecting coins for upgrades, climbing mountains with platforms, and spraying moles who will chase you down. 
+                                    Will you become the ultimate farmer? 
+                                    <br> </br>
+                                    Skills: Unity, C#
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3.itch.io/sprint-4-dustin-la" target="_blank">
+                                        Project Site
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/chickenRush.png" alt = "chickenRush" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Chicken Rush</h3>
+                                <p>
+                                    A Unity Project based on the Roll-a-Ball tutorial made into a platformer with new world and code features. 
+                                    These include player models, collectibles, obstacles, music, teleporters,
+                                    sound effects, custom movement, doors, menus, and camera rotation. 
+                                    <br> </br>
+                                    Collect 12 stars in each level and get to the purple platform before time runs out! 
+                                    <br> </br>
+                                    Skills Learned: Unity, C#
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3.itch.io/sprint-2-dustin-la" target="_blank">
+                                        Project Site
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/marshmallow.png" alt = "Marshmallow" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Marshmallow Toast Simulator</h3>
+                                <p>
+                                    Created during the HackNJIT 2022 Hackathon by Adrianna Rust, Andrew Dickman, Dustin La, and Hrishikesh Sakunala
+                                    <br> </br>
+                                    <b>-- Best Camping Themed Hack Winner -- </b>
+                                    <br></br>
+                                    Used Python with the Pygame library to create a game where a user toasts their marshmallow to a scrumptious golden brown.
+                                    Choose a duration of short, medium, or long to toast your marshmallow over the campfire.
+                                    Based on this duration, you will toast your marshmallow and get it closer to Golden Brown!                              
+                                    But be careful, too much toasting will burn your marshmallow.
+                                    Continue to toast golden brown marshmallows to increase your streak and go for a high score!
+                                    <br> </br>
+                                    Skills Learned: Python, Pygame
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://devpost.com/software/marshmallow-toast-simulator" target="_blank">
+                                        Devpost
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/marshmallowToastSimulator" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/simpleArcade.png" alt = "simpleArcade" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Simple Arcade</h3>
+                                <p>
+                                    I designed and created a web application that is based on a pre-made HTML game with custom modifications.
+                                    This web application uses PHP, CSS, and Bootstrap for visual layouts and page
+                                    connections. Additionally, I built an SQL Database for users to register accounts and save their game data. 
+                                    I used PHP and Javascript for saving scores, creating profiles, competitions, admin functions, and other users functions.
+                                    The SQL Database is queried to create dynamic weekly, monthly, and lifetime scoreboards. 
+                                    <br> </br>
+                                    Skills: HTML, PHP, CSS, JavaScript, SQL, Bootstrap
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3-prod.herokuapp.com/Project/login.php" target="_blank">
+                                        Project Site
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/IT202-011/tree/prod" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
             </div>
         </div>
 <!-- Extracurriculars -->
-        <div class = "section" id = "extracurriculars">
+        <div class = "section" id="extracurriculars">
             <div class = "activities">
                 <h1 class = "title">Activities</h1>
                 <div class = "hiddenLeft">
@@ -398,7 +465,7 @@
                 </div>
             </div>
             <br></br>
-            <div class = "section" id = "extracurriculars2">
+            <div class = "section" id="extracurriculars2">
                 <div class = "activities">
                     <div class = "hiddenLeft">
                         <div class = "divider"></div>
@@ -543,7 +610,7 @@
             </div>
         </div>
 <!-- Connect -->
-        <div class = "section" id = "connect">
+        <div class = "section" id="connect">
             <div class = "connnect">
                 <h1 class = "title" id = "connectTitle">Connect with Me!</h1>
                 <div class = "hiddenUp">
@@ -566,7 +633,7 @@
             </div>
         </div>
 <!-- Contact -->
-        <div class = "section" id = "contact">
+        <div class = "section" id="contact">
             <h1 class = "title" id = "contact">Contact</h1>
             <div class= "contact">
                 <div class = "hiddenUp">

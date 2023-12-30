@@ -7,7 +7,7 @@ wrappers.forEach((wrapper) => {
     const firstCardWidth = carousel.querySelector(".card").offsetWidth;
     const carouselChildrens = [...carousel.children];
     let isDragging = false,
-        isAutoPlay = true,
+        isAutoPlay = false,
         startX,
         startScrollLeft,
         timeoutId;

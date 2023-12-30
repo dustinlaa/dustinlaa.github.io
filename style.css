@@ -80,7 +80,7 @@ scroll-margin-top: 200px;
 }
 
 #aboutMe, #projects, #extracurriculars, #contact {
-  scroll-margin-top: 65px;
+  scroll-margin-top: 50px;
 }
 
 /* .showLeft {
@@ -345,6 +345,10 @@ p {
 
 .link:hover {
   transform: translateY(-3px);
+}
+
+iframe {
+    max-width: 100%;
 }
 @media (hover: hover) {
     .link:hover {
@@ -622,9 +626,9 @@ footer {
         }
     }
 
-    /* #intro .hiddenUp{
+    #intro .hiddenUp{
         text-align: center;
-    } */
+    }
 
     p {
         font-size: 12px;
@@ -634,9 +638,9 @@ footer {
         margin-right: auto;
     }
 
-    /* .intro #hiddenUp p {
+    .intro #hiddenUp p {
         text-align: center;
-    } */
+    }
 
     .section {
         margin-bottom: -10px;
@@ -803,10 +807,10 @@ footer {
         margin: 100px auto -50px auto;
         width: 100%;
     }
-    /* .contact .hiddenUp {
+    .contact .hiddenUp {
         max-width: 100%;
         margin: -75px auto 10px;
-    } */
+    }
 
     form input, form textarea {
         font-size: 12px;

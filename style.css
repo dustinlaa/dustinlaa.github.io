@@ -76,11 +76,15 @@ body::before {
 }
 
 #connect {
-scroll-margin-top: 200px;
+scroll-margin-top: 32vh;
 }
 
-#aboutMe, #projects, #extracurriculars, #contact {
-  scroll-margin-top: 50px;
+#aboutMe {
+    scroll-margin-top: 10vh;
+}
+
+#projects, #extracurriculars, #contact {
+  scroll-margin-top: 75px;
 }
 
 /* .showLeft {
@@ -265,7 +269,7 @@ p {
     opacity: 1;
     margin: 0.5rem auto;
     padding: 1rem;
-    margin-bottom: 25vh;
+    margin-bottom: 30vh;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
 }
 
